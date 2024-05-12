@@ -47,7 +47,7 @@
       "name": "Type",
       "scope": "storage.type.primitive, support.type, entity.name.type, keyword.type, keyword.other.unit",
       "settings": {
-        "foreground": "#9aedfe"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -58,10 +58,10 @@
       }
     },
     {
-      "name": "Boolean",
-      "scope": "constant.language.boolean",
+      "name": "Boolean,Null and Undefined",
+      "scope": "constant.language.boolean, constant.language.null, constant.language.undefined",
       "settings": {
-        "foreground": "#5af78e"
+        "foreground": "#8DF8B7"
       }
     },
     {
@@ -72,24 +72,10 @@
       }
     },
     {
-      "name": "Null",
-      "scope": "constant.language.null",
-      "settings": {
-        "foreground": "#5af78e"
-      }
-    },
-    {
-      "name": "Undefined",
-      "scope": "constant.language.undefined",
-      "settings": {
-        "foreground": "#5af78e"
-      }
-    },
-    {
       "name": "Function definition",
       "scope": "meta.function entity.name.function",
       "settings": {
-        "foreground": "#57c7ff"
+        "foreground": "#F3F99D"
       }
     },
     {
@@ -110,14 +96,22 @@
       "name": "component",
       "scope": "support.class",
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#4EC9B0"
       }
     },
     {
       "name": "Identifier",
       "scope": "variable, support.variable, support.constant",
       "settings": {
-        "foreground": "#eff0eb"
+        "foreground": "#FCDDFF"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#00FFFF"
       }
     },
     {
@@ -146,14 +140,7 @@
       "name": "Class variable",
       "scope": "variable.object.property",
       "settings": {
-        "foreground": "#f3f99d"
-      }
-    },
-    {
-      "name": "Function argument",
-      "scope": "variable.parameter",
-      "settings": {
-        "fontStyle": "italic"
+        "foreground": "#A8E1FF"
       }
     },
     {
@@ -518,7 +505,7 @@
     "editor.foreground": "#eff0eb",
     "editor.hoverHighlightBackground": "#54555e",
     "editorIndentGuide.background": "#616263",
-    "editor.lineHighlightBackground": "#2C2F3D",
+    "editor.lineHighlightBackground": "#404251",
     "editorLineNumber.foreground": "#616263",
     "editor.rangeHighlightBackground": "#54555e",
     "editor.selectionHighlightBackground": "#54555e",
